@@ -24,10 +24,11 @@
   },
   "homepage": "https://github.com/wangzuo/react-medium-editor",
   "peerDependencies": {
-    "react": "^0.14.1"
+    "react": "^0.14.1",
+    "medium-editor": "openmaphub/medium-editor"
   },
   "dependencies": {
-    "medium-editor": "openmaphub/medium-editor"
+
   },
   "devDependencies": {
     "babel-core": "^5.4.5",
