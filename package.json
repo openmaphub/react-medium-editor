@@ -4,7 +4,7 @@
   "description": "React wrapper for medium-editor",
   "main": "index.js",
   "scripts": {
-  	"start": "webpack-dev-server -c --port=8899",
+    "start": "webpack-dev-server -c --port=8899",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,10 +24,10 @@
   },
   "homepage": "https://github.com/wangzuo/react-medium-editor",
   "peerDependencies": {
-    "react": "^0.14.0"
+    "react": "^0.14.1"
   },
   "dependencies": {
-    "medium-editor": "^5.7.0"
+    "medium-editor": "openmaphub/medium-editor"
   },
   "devDependencies": {
     "babel-core": "^5.4.5",
