@@ -37,6 +37,8 @@ module.exports = React.createClass({
   componentWillReceiveProps: function componentWillReceiveProps(nextProps) {
     if (nextProps.text !== this.state.text && !this._updated) {
       this.setState({ text: nextProps.text });
+      var dom = ReactDOM.findDOMNode(this);
+      dom.classList.remove("medium-editor-placeholder");
     }
 
     if (this._updated) this._updated = false;
